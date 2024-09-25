@@ -1,0 +1,147 @@
+
+:root {
+    ---sec:#26292e;
+    ---prim: #e7718b;
+    ---tert: #f4f4f6;
+    ---sec2Border: #fce3e7;
+    ---icon: #fefefe;
+    ---font1: "sofia", cursive;
+}
+
+
+*{box-sizing: border-box;}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: var(---tert);
+}
+
+/* classes */
+
+
+.product1, .product2, .product3, .product4 {
+    background-color: var(---sec);
+    color: var(---tert);
+    width: 30px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    /* position: absolute;
+    top: 850px; */
+}
+
+
+#header {
+    background-color: var(---sec);
+}
+
+.footer {
+    background-color: var(---sec);
+}
+
+.fs2-text {
+    color: var(---tert);
+}
+
+.mainSection1 {
+    background-color: var(---prim);
+    padding: 20px;
+}
+
+.content-heading {
+    color: var(---tert);
+}
+
+.main-text1, .main-text2 {
+    color: var(---tert);
+}
+
+.more-btn {
+    background-color: var(---sec);
+    color: var(---tert);
+    border-radius: 5px;
+}
+
+.footer-heading2 {
+    color: #555;
+    /* position: absolute;
+    right: 100px;
+    top: 730px; */
+}
+
+
+/* ids */
+
+#headingText {
+    color: var(---tert);
+    font-size: 20px;
+    font-family: var(---font1);
+}
+
+#icon1, #icon2, #icon3 {
+    color: var(---tert);
+}
+
+#mainSection2 {
+    background-color: var(---tert);
+}
+
+#contentHeading1, #contentHeading2, #contentHeading3 {
+    color: #777;
+}
+
+#lorembox1, #lorembox2, #lorembox3 {
+    color: #777;
+}
+
+#subHeading {
+    color: #555;
+    width: 500px;
+}
+
+#coments {
+    color: #777;
+    /* position: relative;
+    right: -660px;
+    top: -25px;
+    width: 500px;
+    margin-bottom: 10px; */
+}
+
+#product1 {
+    /* position: absolute;
+    left: 10px; */
+    background-color: var(---sec);
+    border: 8px solid #777;
+    width: 300px;
+    height: 150px;
+}
+
+#product2 {
+    /* position: absolute;
+    left: 300px; */
+    background-color: var(---sec);
+    border: 8px solid #777;
+    width: 300px;
+    height: 150px;
+}
+#product3 {
+    /* position: absolute;
+    left: 10px; */
+    background-color: var(---sec);
+    border: 8px solid #777;
+    top: 900px;
+    width: 300px;
+    height: 150px;
+}
+
+#product4 {
+    /* position: absolute;
+    left: 300px; */
+    background-color: var(---sec);
+    border: 8px solid #777;
+    top: 950px;
+    width: 300px;
+    height: 150px;
+}
